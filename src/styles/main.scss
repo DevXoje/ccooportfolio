@@ -1,0 +1,60 @@
+@import "variables";
+@import "mixin.scss";
+@import "header";
+@import "nav";
+@import "quienSoy";
+@import "skills";
+@import "servicios";
+@import "portfolio";
+@import "contacto";
+@import "footer";
+/* Parent Layout */
+
+/* Layout */
+
+/* Box Model */
+
+/* Positioning */
+
+/* Display */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  background: black;
+  color: whitesmoke;
+}
+section {
+  margin-bottom: 50px;
+}
+.section__titulo {
+  font-family: $font_primary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: 10px;
+  &::before {
+    content: ".";
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+  }
+}
+.section__subtitulo {
+  font-family: $font_primary;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  text-align: right;
+}

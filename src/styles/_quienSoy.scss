@@ -1,0 +1,27 @@
+.quienSoy {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  &__text {
+    font-family: $font-secondary;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+  &__descargaCV {
+    width: 20%;
+    min-width: 184px;
+    font-family: $font_primary;
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+    i{
+      font-size: 30px;
+      position: relative;
+      bottom: 5px;
+      right: 10px;
+    }
+  }
+}

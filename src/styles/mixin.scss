@@ -1,0 +1,19 @@
+//Funcion
+@mixin card($ancho:100px, $alto:100px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #101010;
+}
+@mixin galery($gap:10px,$rows:1){
+    display: grid;
+    padding: 20px 30px 20px 10px;
+    gap:$gap;
+    grid-template-columns: repeat($rows, 1fr);
+    &__item{
+        @include card;
+        box-shadow: $sombra_fina;
+        margin-bottom: 40px;
+    }
+}

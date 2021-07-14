@@ -1,0 +1,21 @@
+.servicios {
+    @include galery(10px,1);
+    margin-left: 25px;
+    &__item {
+        width: 278.03px;
+        padding: 40px;
+        box-shadow: 20px 10px $color_sombra;
+        i{
+            font-size: 45px;
+        }
+        p{
+            text-align: center;
+        }
+        &Nombre{
+            font-size: 25px;
+        }
+        &>*:not(:last-child){
+            margin-bottom: 20px;
+        }
+    }
+}

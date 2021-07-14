@@ -1,0 +1,13 @@
+.skills {
+  @include galery(25px,2);
+  &__item {
+    width: 180.5px;
+    height: 75.84px;
+    i{
+      font-size: 36px;
+    }
+    &Nombre{
+      letter-spacing: 1px;
+    }
+  }
+}

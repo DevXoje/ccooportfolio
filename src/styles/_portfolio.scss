@@ -1,0 +1,8 @@
+.portfolio{
+	@include galery(10px,1);
+	&__item{
+		height: 400.7px;
+		width: 368.8px;
+		//background-image: url('../img/marketing.jpg');
+	}
+}
